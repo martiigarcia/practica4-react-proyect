@@ -6,9 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Estudiante from './Estudiante';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let obj = {
+  nombre:'Martina',
+  apellido:'Garcia',
+};
+
 root.render(
   <React.StrictMode>
-    <Estudiante />
+    <Estudiante persona={obj}/>
   </React.StrictMode>
 );
 
