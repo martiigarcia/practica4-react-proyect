@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Estudiante from './Estudiante';
+import Cursos from './Cursos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,7 +14,10 @@ let obj = {
 
 root.render(
   <React.StrictMode>
-    <Estudiante persona={obj}/>
+    
+    <Estudiante persona={ obj}/>
+    <Cursos/>
+
   </React.StrictMode>
 );
 
