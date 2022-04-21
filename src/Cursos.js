@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Curso.css";
 
 export default class Cursos extends Component {
   constructor(props) {
@@ -39,7 +40,7 @@ export default class Cursos extends Component {
   render() {
     return (
       <div>
-        <div className="estilo">
+        <div className="estiloCursos">
           <button onClick={this.listarCursos}>listar cursos</button>
           <button onClick={this.listarCursosEstudiante}>
             listar primer estudiante

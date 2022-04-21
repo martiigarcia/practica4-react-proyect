@@ -47,7 +47,7 @@ export default class ListarEstudiantes extends Component {
   render() {
     return (
       <div>
-        <div className="estilo">
+        <div className="estiloEstudiante">
           <p>
             Nombre y apellido: {this.props.persona.nombre}{" "}
             {this.props.persona.apellido}
@@ -71,7 +71,7 @@ export default class ListarEstudiantes extends Component {
             </tbody>
           </table>
         </div>
-        <div className="estilo">
+        <div className="estiloEstudiante2">
           <button onClick={this.listarEstudiantes}>listar estudiantes</button>
           <table border="1">
             <caption>Lista de Estudiantes</caption>

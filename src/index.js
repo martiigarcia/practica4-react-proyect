@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Estudiante from "./Estudiante";
 import Cursos from "./Cursos";
 import App from "./App";
+import CrearEstudiante from "./crearEstudiante";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -18,6 +19,7 @@ root.render(
     <App />
     <Estudiante persona={obj} />
     <Cursos />
+    <CrearEstudiante />
   </React.StrictMode>
 );
 
