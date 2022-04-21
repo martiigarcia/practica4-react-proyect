@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Estudiante from "./Estudiante";
 import Cursos from "./Cursos";
 import App from "./App";
-import CrearEstudiante from "./crearEstudiante";
+import CrearEstudiante from "./CrearEstudiante";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

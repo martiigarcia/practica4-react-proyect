@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./CrearEstudiante.css";
 
-export default class crearEstudiante extends Component {
+export default class CrearEstudiante extends Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
