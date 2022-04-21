@@ -1,23 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Estudiante from './Estudiante';
-import Cursos from './Cursos';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Estudiante from "./Estudiante";
+import Cursos from "./Cursos";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 let obj = {
-  nombre:'Martina',
-  apellido:'Garcia',
+  nombre: "Martina",
+  apellido: "Garcia",
 };
 
 root.render(
   <React.StrictMode>
-    
-    <Estudiante persona={ obj}/>
-    <Cursos/>
-
+    <App />
+    <Estudiante persona={obj} />
+    <Cursos />
   </React.StrictMode>
 );
 
